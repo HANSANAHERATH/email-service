@@ -18,9 +18,9 @@ import static java.lang.annotation.ElementType.PARAMETER;
 @Constraint(validatedBy = EmailValidator.class)
 public @interface EmailValidation {
     //error message
-    public String message() default "Invalid Email Found.";
+    String message() default "Invalid Email Found.";
     //represents group of constraints
-    public Class<?>[] groups() default {};
+    Class<?>[] groups() default {};
     //represents additional information about annotation
-    public Class<? extends Payload>[] payload() default {};
+    Class<? extends Payload>[] payload() default {};
 }

@@ -9,7 +9,6 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 
 import javax.mail.MessagingException;
-import java.io.File;
 
 @SpringBootApplication
 public class EmailServiceApplication {
